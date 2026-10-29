@@ -1,0 +1,25 @@
+# Ambiente Python (recriar com: py -3.12 -m venv .venv  e  pip install -r requirements.txt)
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Base de dados (≈ 6 GB; baixada pelo próprio notebook, Etapa 2.2)
+UrbanSound8K/
+*.tar.gz
+*.rar
+*.zip
+
+# Cache de espectrogramas e modelos treinados (gerados pelo notebook)
+cache_us8k/
+
+# Figuras e tabelas geradas (Etapa 15)
+resultados/
+
+# Cópia de segurança da versão original do Colab
+Projeto_UrbanSound8K_colab_original.ipynb
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
